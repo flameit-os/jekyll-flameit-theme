@@ -16,21 +16,18 @@ theme: jekyll-flameit-theme
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : FlameIT - Immersion Cooling
-email      : black-hole@null.com
+title: FlameIT - Immersion Cooling
+email: black-hole@null.com #this is also the email contact forms will go to
 description: "Immersion Cooling experts"
-author     : FlameIT - Immersion Cooling
-logo:     #optional, defaults to site title
- path: assets\img\clients\creative-market.jpg
- height: 60 #height in px, defaults to 52px
+author: FlameIT Author
+# logo:     #optional, defaults to site title
+# path: assets\img\clients\creative-market.jpg
+# height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
-# Remove .html from end of URL
-permalink: pretty
-
 analytics:
-  google: UA-136611749-1
+  google: #Google Analytics tracking code here
 
 collections:
   portfolio:
